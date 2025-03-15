@@ -171,7 +171,13 @@ main {
 }
 
 .news-excerpt {
-    color: #666;
+    color: #525252;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+.news-excerpts {
+    color: #c9c9c9;
     font-size: 0.9rem;
     margin-bottom: 1rem;
     line-height: 1.5;
