@@ -33,7 +33,15 @@ header {
     display: flex;
     align-items: center;
 }
+.logo-link {
+    text-decoration: none; 
+    color: inherit; 
+    cursor: pointer; 
+}
 
+.logo-link:hover .logo {
+    opacity: 0.8; 
+}
 .logo span {
     color: #ff4d4f;
 }
@@ -400,7 +408,34 @@ footer {
     padding: 1rem 0;
     font-size: 0.9rem;
 }
-
+.full-article {
+    margin: 20px 0;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+.article-meta {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+.article-image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+.full-article h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.full-article h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.full-article p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
 @media (max-width: 992px) {
     main {
         grid-template-columns: 1fr;
